@@ -1,0 +1,9 @@
+.cardBox{
+    border: 2px solid black;
+    width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    display: inline-block;
+    margin: 10px;
+}
