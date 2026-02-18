@@ -1,0 +1,29 @@
+.cardsBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card{
+  width:300px;
+  height: 230px;
+  border: 2px solid black;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardImg{
+  height: 100px;
+  border: 1px solid burlywood;
+  padding: 10px;
+}
+
+.cardImg>img{
+  width: 80px;
+
+}
