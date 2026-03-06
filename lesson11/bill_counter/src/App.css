@@ -1,0 +1,49 @@
+.customerDetails{
+  display: flex;
+  border: 2px solid black;
+  padding: 20px;
+  background-color: aqua;
+}
+
+.itemInput{
+  border: 2px solid black;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+.itemInput>div{
+  width: 300px;
+  margin: 10px;
+}
+
+.allProducts{
+
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.allProducts>table{
+  border: 2px solid black;
+  padding: 10px;
+}
+.allProducts>button{
+  margin-top: 10px;
+}
+
+tr,td{
+  border: 1px solid aqua;
+}
+
+
+.generatedBillBox{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
